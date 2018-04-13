@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SelectCriteriaActivity">
+        <activity android:name=".ui.SelectCriteriaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CenterReportSummaryActivity"
-            android:parentActivityName=".SelectCriteriaActivity">
+            android:name=".ui.CenterReportSummaryActivity"
+            android:parentActivityName=".ui.SelectCriteriaActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".SelectCriteriaActivity" />
+                android:value=".ui.SelectCriteriaActivity" />
         </activity>
-        <activity android:name=".IndividualCenterReportSummary"></activity>
+        <activity android:name=".ui.IndividualCenterReportSummary"></activity>
     </application>
 
 </manifest>

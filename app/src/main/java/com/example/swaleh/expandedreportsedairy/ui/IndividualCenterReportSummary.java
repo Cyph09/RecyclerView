@@ -1,7 +1,9 @@
-package com.example.swaleh.expandedreportsedairy;
+package com.example.swaleh.expandedreportsedairy.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.swaleh.expandedreportsedairy.R;
 
 public class IndividualCenterReportSummary extends AppCompatActivity {
 

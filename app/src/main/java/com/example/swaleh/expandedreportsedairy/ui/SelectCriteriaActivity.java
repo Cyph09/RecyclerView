@@ -1,17 +1,12 @@
-package com.example.swaleh.expandedreportsedairy;
+package com.example.swaleh.expandedreportsedairy.ui;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.example.swaleh.expandedreportsedairy.Model.Center;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.example.swaleh.expandedreportsedairy.R;
 
 public class SelectCriteriaActivity extends AppCompatActivity {
 

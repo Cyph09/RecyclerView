@@ -1,10 +1,12 @@
-package com.example.swaleh.expandedreportsedairy;
+package com.example.swaleh.expandedreportsedairy.Adapters;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.swaleh.expandedreportsedairy.R;
 
 /**
  * Created by Swaleh on 3/7/2018.

@@ -1,11 +1,13 @@
-package com.example.swaleh.expandedreportsedairy;
+package com.example.swaleh.expandedreportsedairy.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
+import com.example.swaleh.expandedreportsedairy.Adapters.ReportSummaryAdapter;
 import com.example.swaleh.expandedreportsedairy.Model.Center;
+import com.example.swaleh.expandedreportsedairy.R;
 
 import java.util.ArrayList;
 import java.util.List;
