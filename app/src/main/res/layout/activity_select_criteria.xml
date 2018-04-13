@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.swaleh.expandedreportsedairy.SelectCriteriaActivity">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="1dp"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/sp_report_type"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:minHeight="25dp"
+                android:minWidth="25dp" />
+
+            <Spinner
+                android:id="@+id/sp_station"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:minHeight="25dp"
+                android:minWidth="25dp"
+                android:visibility="visible"/>
+
+            <!--Material autocomplete for farmer names-->
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/et_farmer_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:hint="@string/start_typing_farmer_name"
+                android:visibility="visible" />
+
+            <!--Material edit text for start date-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ed_date_from"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:inputType="date"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:hint="date from"
+                    android:visibility="visible"/>
+
+                <!--Material edit text for end date-->
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/ed_date_to"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="50dp"
+                    android:inputType="date"
+                    android:layout_marginRight="5dp"
+                    android:hint="Date to"
+                    android:visibility="visible"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_search_report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/view_report"
+                android:textColor="#fff"
+                android:visibility="visible"
+                android:onClick="BtnViewReport"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

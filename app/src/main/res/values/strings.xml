@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">eDairy</string>
+    <string name="start_typing_farmer_name">Start typing farmer name</string>
+    <string name="view_report">VIEW REPORT</string>
+    <string name="date_to">Date to</string>
+    <string name="date_from">Date from</string>
+
+</resources>
